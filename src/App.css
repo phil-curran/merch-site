@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.row, .col, .card, .bordered {
+  border: 2px solid black;
+  border-radius: 2px;
+  /* padding: 4px; */
+  margin: 4px;
+}
+
+.card:hover {
+  background-color: #f0f0f0;
+  border: 2px solid red;
+}
